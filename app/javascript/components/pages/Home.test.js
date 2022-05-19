@@ -14,9 +14,9 @@ import Home from './Home'
 Enzyme.configure({ adapter: new Adapter() })
 
 describe("When Home renders", () => {
-  it("displays a heading", () => {
-    const home = shallow(<Home />)
-    const homeHeading = home.find("h3")
+  it("displays a div", () => {
+    const renderedhome = shallow(<Home />)
+    const homeHeading = home.find("div")
     console.log("HOME", homeHeading.debug());
     expect(homeHeading.text()).toEqual("This Should Fail")
   })
