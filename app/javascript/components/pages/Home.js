@@ -8,7 +8,7 @@ export default class Home extends Component {
     console.log(logo)
     return (
       <>
-  
+  <h1> WELCOME HOME </h1>
      
 
       <Helmet>

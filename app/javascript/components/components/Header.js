@@ -54,6 +54,9 @@ class Header extends Component {
             <li class="nav-item">
               <a class="nav-link" href="/apartmentnew">Upload an Apartment Listing</a>
             </li>
+            <li class="nav-item">
+              <a class="nav-link" href="/">Home</a>
+            </li>
           </ul>
         </div>
       </nav> 
